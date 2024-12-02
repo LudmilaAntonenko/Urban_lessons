@@ -1,6 +1,6 @@
 # Домашняя работа по уроку "Способы вызова функции"
 print('Задача "Рассылка писем":')
-def send_email(message, recipient, *,sender = "university.help@gmail.com"):
+def send_email(message, recipient, *, sender = "university.help@gmail.com"):
     mail = True
     if "@" in recipient and "@" in sender and recipient.endswith(('.com', '.ru', '.net')) and sender.endswith(('.com','.ru', '.net')):
         mail = True
