@@ -51,6 +51,6 @@ print(House.houses_history)
 
 # Удаление объектов
 del h2
-# print(House.houses_history)
+print(House.houses_history)
 del h3
 # print(House.houses_history)
